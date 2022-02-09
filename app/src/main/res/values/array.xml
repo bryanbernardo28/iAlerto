@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="my_array">
+        <item>Fire</item>
+        <item>Flood</item>
+        <item>Earthquake</item>
+        <item>Accident</item>
+        <item>Calamity</item>
+    </array>
+
+    <array name="barangay">
+        <item>Bagong Ilog</item>
+        <item>Bagong Katipunan</item>
+        <item>Bambang</item>
+        <item>Buting</item>
+        <item>Caniogan</item>
+        <item>Kalawaan</item>
+        <item>Kapasigan</item>
+        <item>Kapitolyo</item>
+        <item>Malinao</item>
+        <item>Oranbo</item>
+        <item>Palatiw</item>
+        <item>Pineda</item>
+        <item>Sagad</item>
+        <item>San Antonio</item>
+        <item>San Joaquin</item>
+        <item>San Jose</item>
+        <item>San Nicolas</item>
+        <item>Sta. Cruz</item>
+        <item>Sta. Rosa</item>
+        <item>Sto. Tomas</item>
+        <item>Sumilang</item>
+        <item>Ugong</item>
+        <item>Dela Paz</item>
+        <item>Manggahan</item>
+        <item>Maybunga</item>
+        <item>Pinagbuhatan</item>
+        <item>Rosario</item>
+        <item>San Miguel</item>
+        <item>Santolan</item>
+        <item>Sta. Lucia</item>
+    </array>
+</resources>

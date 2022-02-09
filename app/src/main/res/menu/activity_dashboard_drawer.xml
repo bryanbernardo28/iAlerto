@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/baseline_add_alert_24"
+            android:title="@string/menu_alert" />
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/baseline_notification_important_24"
+            android:title="@string/menu_alerts" />
+        <item
+            android:id="@+id/nav_announcement"
+            android:icon="@drawable/baseline_announcement_24"
+            android:title="@string/menu_announcement" />
+        <item
+            android:id="@+id/nav_evacuation"
+            android:icon="@drawable/baseline_night_shelter_24"
+            android:title="@string/menu_evacuation" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_account_box_24"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_prereg"
+            android:icon="@drawable/baseline_fingerprint_24"
+            android:title="@string/menu_pre_registration" />
+        <item
+            android:id="@+id/nav_reporthistory"
+            android:icon="@drawable/baseline_history_24"
+            android:title="@string/menu_report_history" />
+    </group>
+
+    <item android:title="Settings" >
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="@string/signout" />
+        </menu>
+    </item>
+</menu>

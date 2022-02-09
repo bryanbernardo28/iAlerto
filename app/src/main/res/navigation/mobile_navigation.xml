@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_alerts">
+
+    <fragment
+        android:id="@+id/nav_alerts"
+        android:name="com.example.ialerto.ui.alerts.AlertsFragment"
+        android:label="@string/menu_alerts"
+        tools:layout="@layout/fragment_alerts"/>
+
+    <fragment
+        android:id="@+id/nav_announcement"
+        android:name="com.example.ialerto.ui.announcement.AnnouncementFragment"
+        android:label="@string/menu_announcement"
+        tools:layout="@layout/fragment_announcement" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.ialerto.admin.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_reporthistory"
+        android:name="com.example.ialerto.ui.reporthistory.ReportHistory"
+        android:label="@string/menu_report_history"
+        tools:layout="@layout/fragment_report_history" />
+    <fragment
+        android:id="@+id/nav_alert"
+        android:name="com.example.ialerto.resident.alert.AlertFragment"
+        android:label="@string/menu_alert"
+        tools:layout="@layout/fragment_alert" />
+    <fragment
+        android:id="@+id/nav_prereg"
+        android:name="com.example.ialerto.employee.prereg.Register"
+        android:label="@string/menu_pre_registration"
+        tools:layout="@layout/activity_register" />
+    <fragment
+        android:id="@+id/nav_evacuation"
+        android:name="com.example.ialerto.ui.evacuation.Evacuation"
+        android:label="@string/menu_evacuation"
+        tools:layout="@layout/fragment_evacuation" />
+</navigation>

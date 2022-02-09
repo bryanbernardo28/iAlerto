@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY nbsp "&#160;"><!-- non-breaking space, U+00A0 -->
+    ]>
+<resources>
+    <string name="app_name">iAlerto</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_alerts">Alerts</string>
+    <string name="menu_alert">Alert</string>
+    <string name="menu_announcement">Announcement</string>
+    <string name="menu_evacuation">Evacuation</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_report_history">Report History</string>
+    <string name="menu_pre_registration">Pre-registartion</string>
+
+    <!--    Announcement-->
+    <string name="title">Title</string>
+    <string name="details">Details</string>
+    <string name="save_announcement">Save</string>
+    <string name="cancel_announcement">Cancel</string>
+    <string name="add_announcement">Add Announcement</string>
+
+    <!--    Settings-->
+    <string name="signout">Signout</string>
+    <!--    Reset Password-->
+    <string name="cancel">Cancel</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!--    Register-->
+    <string name="register_name">Full Name (Surname,Firstname,Middlename)</string>
+    <string name="register_firstname">First Name</string>
+    <string name="register_middlename">Middle Name</string>
+    <string name="register_lastname">Last Name</string>
+    <string name="register_email">Email</string>
+    <string name="register_birthdate">Date of birth</string>
+    <string name="register_address">Complete Address</string>
+    <string name="register_cnumber">Contact  (09xxxxxxxxx)</string>
+    <string name="register_declaration">Declaration/Relative</string>
+    <string name="register_mobilenumber">Mobile Number</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="str_register">Register</string>
+    <string name="checkbox_pwd">PWD</string>
+    <string name="checkbox_senior">Senior Citizen</string>
+    <string name="register_healthconncerns">Health concerns</string>
+
+    <!--    Fingerprint-->
+    <string name="register_fingerprint_left">Left index finger</string>
+    <string name="register_fingerprint_right">Right index finger</string>
+    <string name="register_reconnect_device">Reconnect device</string>
+    <string name="register_left_fingerprint_status">Status: </string>
+    <string name="register_right_fingerprint_status">Status: </string>
+
+    <!--    Address-->
+    <string name="register_province">Province</string>
+    <string name="register_province_text">Metro Manila</string>
+    <string name="register_city">City</string>
+    <string name="register_city_text">Pasig City</string>
+    <string name="register_barangay">Barangay</string>
+    <string name="register_detailed_address">Detailed Address</string>
+    <string name="register_detailed_address_helper">Unit/House Number,street name, subdivision,building</string>
+
+    <!--    Main Activity Layout Text-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+
+
+    <!--    Profile-->
+    <string name="myprofile">My Profile</string>
+    <string name="submit">Submit</string>
+    <string name="change_password">Change Password</string>
+
+    <!--    Alert-->
+    <string name="send_alert">Send Alert</string>
+    <string name="dialog_title">Choose Alert Type</string>
+    <string name="disaster_fire">Fire</string>
+    <string name="disaster_flood">Flood</string>
+    <string name="disaster_crime">Crime</string>
+    <string name="disaster_accident">Accident</string>
+    <string name="others_hint">Others (Specify thru chat)</string>
+
+    <string name="car_accident">Car Accident</string>
+    <string name="road_accident">Road Accident</string>
+    <string name="fatal_accident">Fatal Accident</string>
+    <string name="others_accident">Others (Specify accident thru chat)</string>
+
+
+    <!--    Accident Type Dialog-->
+    <string name="accident_dialog_title">Choose Accident Type</string>
+    <!--    Permission Denied Message-->
+    <string name="permission_denied_message_str">This application needs to allow the permission to access your location. Go to settings and allow the permission.</string>
+
+    <!--    MapBox Token-->
+    <string name="mapbox_token">pk.eyJ1IjoiYnJ5YW5iZXJuYXJkbzI4IiwiYSI6ImNrMTJnODZoajAxN3Izb202YzdnbXdiM2kifQ.rBaatfV0jYq0tQIB-qHwmA</string>
+
+    <!--    Disaster Choice-->
+    <string-array name="disaster_array">
+        <item>Fire</item>
+        <item>Flood</item>
+        <item>Crime</item>
+        <item>Accident</item>
+        <item>Others (Specify accident thru chat)</item>
+    </string-array>
+
+    <string-array name="accident_array">
+        <item>Car Accident</item>
+        <item>Road Accident</item>
+        <item>Fatal Accident</item>
+        <item>Others (Specify accident thru chat)</item>
+    </string-array>
+
+    <string name="default_notification_channel_id">global_channel</string>
+    
+    <string name="evac_name">Name: </string>
+    <string name="evac_city">City: </string>
+    <string name="evac_barangay">For Barangay: </string>
+    <string name="evac_address">Address: </string>
+    <string name="evac_full_address">Full Address: </string>
+    <string name="evac_capacity">Capacity: </string>
+    <string name="btn_update_capacity">Update Capacity</string>
+    <string name="hint_capacity">Capacity</string>
+    <string name="btn_add_evacuation">Add Evacuation</string>
+    <string name="hint_evacuation">Evacuation Center (Optional)</string>
+    <string name="hint_barangay">Barangay</string>
+
+
+    <string name="send_picture">Send Picture</string>
+
+
+<!--    Declaration Count-->
+    <string-array name="declaration_count">
+        <item>Declaration/Relative Count</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!--Auto reply message-->
+    <string-array name="auto_reply_messages">
+        <item>The responders are on the way.</item>
+        <item>This report is already responded.</item>
+    </string-array>
+
+    <string name="terms_title">Terms and Conditions</string>
+    <string name="terms_details">Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using our application. <br/><br/>
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These terms apply to all the users around Pasig City.<br/><br/>
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with part of the terms, then you may not access the Service.</string>
+
+    <string name="register_title">&#x25b6; Registration</string>
+    <string name="register_details">
+        - Each user shall only register once.<br/>
+        - The user shall register at their respective barangay in Pasig City.<br/>
+        - User must have the intellectual capacity on how to use the application and its purpose.<br/>
+        - Upon registration, user is required to supply their full name, email, date of birth, contact number, address, and a proof that they are a resident of Pasig City.<br/>
+        - The user shall provide their fingerprint and actual image for biometrics and image recognition that can be used as identification.<br/>
+        - The user can share the account information and disclose access details to a family member or relative.<br/>
+             &nbsp;&nbsp;&nbsp;&nbsp;•	The user should declare the necessary details of the family member or relative that will have access to their account.<br/>
+        - The iAlerto provides data privacy and has the right to modify, suspend or discontinue individual services if the terms and conditions were not complied, at any time and without prior notice, in whole or in part. The iAlerto reserves the further right to limit or deny access to individual or all services, without prior notice at any time.<br/>
+    </string>
+    <string name="report_title">&#x25b6; Reporting</string>
+    <string name="report_details">
+        - Valid reports only.<br/>
+        - False alarm report will be penalized according to the law and the account will be terminated immediately.<br/>
+    </string>
+
+    <string name="loginlogout_title">&#x25b6; Login and Logout</string>
+    <string name="loginlogout_details">
+        - Provide login details such as email and password.<br/>
+        - If the user forgot their password, they could change the password and manage their account in our website.<br/>
+        - The user should not log out their account to use the application easier and faster if they need to send a report.<br/>
+    </string>
+
+    <string name="copyright_title">&#x25b6; Copyright</string>
+    <string name="copyright_details">
+        - The iAlerto reserves the right to change these terms and conditions from time to time in its discretion. <br/>
+        - Revisions to the terms and conditions will be effective from the time they are posted on the Site.<br/>
+        - Imitation or Cloning the application is against the law copyright infringement.<br/>
+    </string>
+
+    <string name="termination_title">Termination</string>
+    <string name="termination_details">
+        We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.<br/><br/>
+        All provisions of the Terms which by their nature should survive termination shall survive termination, including without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.
+    </string>
+</resources>

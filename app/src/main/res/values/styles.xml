@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="TextLabel" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorError">#ffc107</item>
+<!--        <item name="editTextStyle">-->
+<!--            @style/TextLabelEditText-->
+<!--        </item>-->
+    </style>
+<!--    <style name="TextLabelEditText" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:textColorHint">@android:color/black</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorControlNormal">@android:color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorControlActivated">@android:color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorError">#ffc107</item>&ndash;&gt;-->
+<!--        <item name="textInputStyle">-->
+<!--            @style/MyCustomTextInputStyle-->
+<!--        </item>-->
+<!--        <item name="editTextStyle">-->
+<!--            @style/MyCustomEditTextStyle-->
+<!--        </item>-->
+<!--    </style>-->
+
+<!--    <style name="MyCustomTextInputStyle" parent="Widget.Design.TextInputLayout">-->
+<!--        <item name="android:textColorHint">@android:color/white</item>-->
+<!--        <item name="hintTextAppearance">@android:color/white</item>-->
+<!--    </style>-->
+
+<!--    <style name="MyCustomEditTextStyle" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:textColorHint">@android:color/white</item>-->
+<!--        <item name="hintTextAppearance">@android:color/white</item>-->
+<!--    </style>-->
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "809021084640",
+    "firebase_url": "https://ialerto.firebaseio.com",
+    "project_id": "ialerto",
+    "storage_bucket": "ialerto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809021084640:android:76eccb8bc425454a4a9185",
+        "android_client_info": {
+          "package_name": "com.example.ialerto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809021084640-inq1ctkasbqv5g0kshhso4i0gtt4dnfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ialerto",
+            "certificate_hash": "551e99cdefd847dab834ecc4997224810c8e77da"
+          }
+        },
+        {
+          "client_id": "809021084640-ggsm23c01g34ulamqdnu2fv57kf5nh25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4RNG_v0nvPg1L3aZV31G_I7kIiWvqoXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809021084640-ggsm23c01g34ulamqdnu2fv57kf5nh25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
